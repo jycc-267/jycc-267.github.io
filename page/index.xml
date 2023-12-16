@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on ./jycchien/home</title>
+    <link>https://jycc-267.github.io/page/</link>
+    <description>Recent content in Pages on ./jycchien/home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>jycc267@gmail.com (Jimmy Chien)</managingEditor>
+    <webMaster>jycc267@gmail.com (Jimmy Chien)</webMaster>
+    <atom:link href="https://jycc-267.github.io/page/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>https://jycc-267.github.io/page/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>jycc267@gmail.com (Jimmy Chien)</author>
+      <guid>https://jycc-267.github.io/page/about/</guid>
+      <description>What I&amp;rsquo;m doing 😎 Hi folks! I&amp;rsquo;m a graduate student pursuing a MS Degree in Computer Science and Public Policy (MSCAPP) at the University of Chicago.&#xA;With a focus at the intersection of software engineering and internet governance, I am studying how to create innovative and impactful software solutions that facilitate better digital infrastructure and human-computer/data interaction. My current niche is to learn knowledge from the core fields of high performance computing, including distributed system, parallel programming, cloud computing; and attain the skills to design large-scale, human-in-the-loop system applications and services for end-users.</description>
+    </item>
+  </channel>
+</rss>

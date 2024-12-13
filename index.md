@@ -5,7 +5,7 @@
 ### Cloud Computing & Software Engineering Code Sample
 During a <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/spring/courses/mpcs-51083-2#:~:text=This%20course%20provides%20an%20introduction,on%2Dpremises%20and%20cloud%20infrastructure.">Cloud Computing course</a> in UChicago's Computer Science Department in Spring 2023, I built a custom cloud application with AWS. I used a custom Flask API, EC2 instances for frontend, backend, and utility services, S3 object storage buckets for inputs and outputs, a DynamoDB database for storing user and job data, Lambda functions for maintaining serverless scalable workflows, and SNS messages + SQS queues for communicating between the distributed systems. The Github repo for this project is private, but I've made the exported code available <a href="https://drive.google.com/file/d/1OJ5KSlXKvHIr8I5Tw-sYudv_NDYaP3Jb/view">here</a>.
 
-<img src="images/gas.jpg"/>
+<img src="images/gas.png"/>
 
 ---
 ## Medical AI Chatbot Application

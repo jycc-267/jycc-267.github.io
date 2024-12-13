@@ -1,0 +1,18 @@
+title: Dustin Marshall
+logo: "/images/logo.png"
+description: >
+  <br>
+  I have an MSc from UChicago with coursework in advanced statistics, machine learning, and data engineering, plus 7 years of 
+  experience supporting and contributing to the research of industry-leading development economists and data scientists. My technical 
+  expertise is in building data products that apply machine learning, geospatial analysis, and/or natural language processing for 
+  mission-driven organizations.
+  <br><br>
+  I've worked for the <a href="https://bfi.uchicago.edu/development-innovation-lab/">Development Innovation Lab</a> (DIL) at UChicago under 
+  Nobel laureate <a href="https://economics.uchicago.edu/directory/michael-kremer">Michael Kremer</a>, the <a 
+  href="https://www.rockefellerfoundation.org/">Rockefeller Foundation</a>'s Data Science Team, and the <a 
+  href="https://cega.berkeley.edu/">Center for Effective Global Action</a> (CEGA) at UC Berkeley.
+  
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+google_analytics: G-35FELT9N8M 

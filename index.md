@@ -8,11 +8,11 @@ During a <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/spring/courses/mp
 <img src="images/gas.png"/>
 
 ---
-## Medical AI Chatbot Application
+## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
 ### Software Engineering & Data Analysis Code Sample + Academic Writing Sample
 During a <a href="https://harris.uchicago.edu/academics/programs-degrees/courses/big-data-and-development-winter-2023">Big Data and Development course</a> for UChicago's MSc in Computational Analysis and Public Policy in Winter 2023, I coded and deployed a cloud-based <a href="https://docgpt.herokuapp.com/">medical AI chatbot</a> using OpenAI’s Completions and Embeddings API endpoints. I used prompt engineering and text embeddings drawn from a knowledge base of 257k doctor-patient dialogues to improve model response. I wrote an accompanying <a href="https://github.com/dustinmarshall/DocGPT/blob/main/research_design.pdf">research design</a> for a health intervention using the app. The application is fully open-source on <a href="https://github.com/dustinmarshall/DocGPT">GitHub</a>.
 
-<img src="images/docgpt.jpg"/>
+<img src="images/lambda.jpg"/>
 
 ---
 ## Using Singular Value Decomposition to Detect Partisan Voting

@@ -17,7 +17,16 @@ The Github repo for this project is private, but I've made the exported code ava
 ---
 ## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
 ### Data Modeling & Software Engineering
-During a <a href="https://harris.uchicago.edu/academics/programs-degrees/courses/big-data-and-development-winter-2023">Big Data and Development course</a> for UChicago's MSc in Computational Analysis and Public Policy in Winter 2023, I coded and deployed a cloud-based <a href="https://docgpt.herokuapp.com/">medical AI chatbot</a> using OpenAI’s Completions and Embeddings API endpoints. I used prompt engineering and text embeddings drawn from a knowledge base of 257k doctor-patient dialogues to improve model response. I wrote an accompanying <a href="https://github.com/dustinmarshall/DocGPT/blob/main/research_design.pdf">research design</a> for a health intervention using the app. The application is fully open-source on <a href="https://github.com/dustinmarshall/DocGPT">GitHub</a>.
+Here’s a revised version with improved grammar, coherence, and sentence structure:
+
+This project implements a <a href="https://www.snowflake.com/guides/lambda-architecture/">Lambda Architecture</a> to analyze <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page">high-volume for-hire vehicle (HVFHV)</a> trips in New York City using Azure HDInsight Clusters. The architecture combines batch processing of large datasets with real-time analysis, providing hourly insights into key metrics of trip efficiency and pricing dynamics for major ride-sharing services. Metrics such as average price, wait time, trip duration, and costs related to tolls and congestion surcharges are analyzed and broken down by carrier, pickup location, dropoff location, and hour of the day. A Node.js web application serves as the front-end, enabling users to interact with the processed data and generate ad hoc reports.
+
+The system is structured into three main layers:
+1. **Batch Layer**: Processes historical data stored in **HDFS** and **Hive**, enabling comprehensive analysis of past trends.
+2. **Serving Layer**: Combines batch views from **HBase** with incremental views to support efficient ad hoc querying.
+3. **Speed Layer**: Handles real-time data processing using **Kafka** and **Spark Streaming**, ensuring up-to-date insights.
+
+Data is sourced from <a href="https://data.cityofnewyork.us/Transportation/2022-High-Volume-FHV-Trip-Records/g6pj-fsah/about_data">the New York Open Data Portal</a>, with historical datasets bulk downloaded and real-time data fetched via the <a href="https://dev.socrata.com/foundry/data.cityofnewyork.us/g6pj-fsah">Socrata API</a>. This architecture delivers a scalable, fault-tolerant system that seamlessly integrates batch and real-time analytics, empowering users with actionable insights into New York City's ride-sharing ecosystem. The application is fully open-source on <a href="https://github.com/dustinmarshall/DocGPT">GitHub</a>.
 
 <img src="images/lambda.jpg"/>
 

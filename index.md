@@ -25,7 +25,7 @@ The system is structured into three main layers:
 2. **Serving Layer**: Combines batch views from **HBase** with incremental views to support efficient ad hoc querying.
 3. **Speed Layer**: Handles real-time data processing using **Kafka** and **Spark Streaming**, ensuring up-to-date insights.
 
-Data is sourced from <a href="https://data.cityofnewyork.us/Transportation/2022-High-Volume-FHV-Trip-Records/g6pj-fsah/about_data">the New York Open Data Portal</a>, with historical datasets bulk downloaded and real-time data fetched via the <a href="https://dev.socrata.com/foundry/data.cityofnewyork.us/g6pj-fsah">Socrata API</a>. This architecture delivers a scalable, fault-tolerant system that seamlessly integrates batch and real-time analytics, empowering users with actionable insights into New York City's ride-sharing ecosystem. The application is fully open-source on <a href="https://github.com/dustinmarshall/DocGPT">GitHub</a>.
+Data is sourced from <a href="https://data.cityofnewyork.us/Transportation/2022-High-Volume-FHV-Trip-Records/g6pj-fsah/about_data">the New York Open Data Portal</a>, with historical datasets bulk downloaded and real-time data fetched via the <a href="https://dev.socrata.com/foundry/data.cityofnewyork.us/g6pj-fsah">Socrata API</a>. This architecture delivers a scalable, fault-tolerant system that seamlessly integrates batch and real-time analytics, empowering users with actionable insights into New York City's ride-sharing ecosystem. The application is fully open-source on <a href="https://github.com/jycc-267/big-data-hvfhv-uber">GitHub</a>.
 
 <img src="images/lambda.jpg"/>
 

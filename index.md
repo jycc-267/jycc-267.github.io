@@ -1,14 +1,14 @@
 ## Project Portfolio
 
 ---
-## Scalable Genomic Annotation Service System
+## Scalable Genomic Annotation Service System with AWS
 ### Cloud Computing & Software Engineering
 
 <img src="images/gas.png"/>
 
 During UChicago's <a href="https://mpcs-courses.cs.uchicago.edu/2024-25/autumn/courses/mpcs-51083-1">Cloud Computing course</a> in Autumn 2024, I developed the Genomics Annotation Service (GAS)—a scalable, fault-tolerant, and cost-effective system designed to efficiently manage asynchronous workflows in a distributed cloud environment. The architecture leverages Amazon S3 for storing input files, results, and logs, while DynamoDB ensures persistent storage of job metadata. To enhance scalability and reliability, I implemented asynchronous inter-process communication and serverless workflows for various system functions. 
 
-I utilized Amazon SNS, SQS, and <a href="https://www.redhat.com/en/topics/automation/what-is-a-webhook">webhooks</a> to enable decoupled communication between system components, allowing the web application to publish job requests asynchronously. This design ensured that each service could scale independently in a cost-effective manner. For data archival and restoration, I created serverless workflows using AWS Step Functions and Lambda that integrated with Stripe’s payment API, facilitating efficient lifecycle management between S3 and Glacier based on user tiers, including users' account data and uploaded files. To handle varying workloads, I implemented auto-scaling and load balancing for both the web servers and the annotators, ensuring seamless performance under dynamic conditions.
+I utilized Amazon SNS, SQS, and <a href="https://www.redhat.com/en/topics/automation/what-is-a-webhook">webhooks</a> to enable decoupled communication between system components, allowing the web application to publish job requests asynchronously. This design ensured that each service could scale independently in a cost-effective manner. For data archival and restoration, I created serverless workflows using AWS Step Functions and Lambda that integrated with <a href="https://docs.stripe.com/api">Stripe’s payment API</a>, facilitating efficient lifecycle management between S3 and Glacier based on user tiers, including users' account data and uploaded files. To handle varying workloads, I implemented auto-scaling and load balancing for both the web servers and the annotators, ensuring seamless performance under dynamic conditions.
 
 The Github repo for this project is private, but I've made the exported code available <a href="https://drive.google.com/file/d/1OJ5KSlXKvHIr8I5Tw-sYudv_NDYaP3Jb/view">here</a>.
 
@@ -53,8 +53,8 @@ During an internship with the Rockefeller Foundation's Data Science team in Summ
 <img src="images/nlp.jpg"/>
 
 ---
-## Predicting Gentrification using Tract-level Characteristics
-### Data Visualization & Machine Learning Code Sample
+## Impact Evaluation of Covid-19 Precautions on Traffic Accidents
+### Panel Data Analysis & Regression Discontinuity
 During a Machine Learning course for UChicago's MSc in Computational Analysis and Public Policy in Spring 2022, my group used 2016 census tract data of neighborhood characteristics to predict a binary classification of a neighborhood’s gentrification status in 2019. The dataset contained 778 census tracts with 22 feature variables measuring socioeconomic status, educational attainment, criminal activity, pollution level, transportation equity and housing equity. The annalysis compared the F1-score performance of logistic regression, decision tree, random forest, and gradient-boosted decision tree models. The code and final report are available on <a href="https://github.com/dustinmarshall/predicting_gentrification_using-ML">GitHub</a>.
 
 <img src="images/ml.jpg"/>

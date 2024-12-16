@@ -4,6 +4,8 @@
 ## Scalable Genomic Annotation Service System
 ### Cloud Computing & Software Engineering
 
+<img src="images/gas.png"/>
+
 During UChicago's <a href="https://mpcs-courses.cs.uchicago.edu/2024-25/autumn/courses/mpcs-51083-1">Cloud Computing course</a> in Autumn 2024, I developed the Genomics Annotation Service (GAS)—a scalable, fault-tolerant, and cost-effective system designed to efficiently manage asynchronous workflows in a distributed cloud environment. The architecture leverages Amazon S3 for storing input files, results, and logs, while DynamoDB ensures persistent storage of job metadata. To enhance scalability and reliability, I implemented asynchronous inter-process communication and serverless workflows for various system functions. 
 
 I utilized Amazon SNS, SQS, and <a href="https://www.redhat.com/en/topics/automation/what-is-a-webhook">webhooks</a> to enable decoupled communication between system components, allowing the web application to publish job requests asynchronously. This design ensured that each service could scale independently in a cost-effective manner. For data archival and restoration, I created serverless workflows using AWS Step Functions and Lambda that integrated with Stripe’s payment API, facilitating efficient lifecycle management between S3 and Glacier based on user tiers, including users' account data and uploaded files. To handle varying workloads, I implemented auto-scaling and load balancing for both the web servers and the annotators, ensuring seamless performance under dynamic conditions.
@@ -12,11 +14,11 @@ The Github repo for this project is private, but I've made the exported code ava
 
 
 
-<img src="images/gas.png"/>
-
 ---
 ## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
 ### Data Modeling & Software Engineering
+
+<img src="images/lambda.jpg"/>
 
 This project implements a <a href="https://www.snowflake.com/guides/lambda-architecture/">Lambda Architecture</a> to analyze <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page">high-volume for-hire vehicle (HVFHV)</a> trips in New York City using Azure HDInsight Clusters. The architecture combines batch processing of large datasets with real-time analysis, providing hourly insights into key metrics of trip efficiency and pricing dynamics for major ride-sharing services. Metrics such as average price, wait time, trip duration, and costs related to tolls and congestion surcharges are analyzed and broken down by carrier, pickup location, dropoff location, and hour of the day. A Node.js web application serves as the front-end, enabling users to interact with the processed data and generate ad hoc reports.
 
@@ -27,7 +29,7 @@ The system is structured into three main layers:
 
 Data is sourced from <a href="https://data.cityofnewyork.us/Transportation/2022-High-Volume-FHV-Trip-Records/g6pj-fsah/about_data">the New York Open Data Portal</a>, with historical datasets bulk downloaded and real-time data fetched via the <a href="https://dev.socrata.com/foundry/data.cityofnewyork.us/g6pj-fsah">Socrata API</a>. This architecture delivers a scalable, fault-tolerant system that seamlessly integrates batch and real-time analytics, empowering users with actionable insights into New York City's ride-sharing ecosystem. The application is fully open-source on <a href="https://github.com/jycc-267/big-data-hvfhv-uber">GitHub</a>.
 
-<img src="images/lambda.jpg"/>
+
 
 ---
 ## Using Singular Value Decomposition to Detect Partisan Voting

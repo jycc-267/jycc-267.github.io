@@ -1,15 +1,15 @@
 ## Project Portfolio
 
 ---
-## Genomic Annotation Service Application
-### Cloud Computing & Software Engineering Code Sample
+## Scalable Genomic Annotation Service System
+### Cloud Computing & Software Engineering
 During a <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/spring/courses/mpcs-51083-2#:~:text=This%20course%20provides%20an%20introduction,on%2Dpremises%20and%20cloud%20infrastructure.">Cloud Computing course</a> in UChicago's Computer Science Department in Autumn 2024, I built a custom cloud application with AWS. I used a custom Flask API, EC2 instances for frontend, backend, and utility services, S3 object storage buckets for inputs and outputs, a DynamoDB database for storing user and job data, Lambda functions for maintaining serverless scalable workflows, and SNS messages + SQS queues for communicating between the distributed systems. The Github repo for this project is private, but I've made the exported code available <a href="https://drive.google.com/file/d/1OJ5KSlXKvHIr8I5Tw-sYudv_NDYaP3Jb/view">here</a>.
 
 <img src="images/gas.png"/>
 
 ---
 ## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
-### Software Engineering & Data Analysis Code Sample + Academic Writing Sample
+### Data Modeling & Software Engineering
 During a <a href="https://harris.uchicago.edu/academics/programs-degrees/courses/big-data-and-development-winter-2023">Big Data and Development course</a> for UChicago's MSc in Computational Analysis and Public Policy in Winter 2023, I coded and deployed a cloud-based <a href="https://docgpt.herokuapp.com/">medical AI chatbot</a> using OpenAI’s Completions and Embeddings API endpoints. I used prompt engineering and text embeddings drawn from a knowledge base of 257k doctor-patient dialogues to improve model response. I wrote an accompanying <a href="https://github.com/dustinmarshall/DocGPT/blob/main/research_design.pdf">research design</a> for a health intervention using the app. The application is fully open-source on <a href="https://github.com/dustinmarshall/DocGPT">GitHub</a>.
 
 <img src="images/lambda.jpg"/>

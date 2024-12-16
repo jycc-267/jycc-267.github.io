@@ -17,7 +17,6 @@ The Github repo for this project is private, but I've made the exported code ava
 ---
 ## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
 ### Data Modeling & Software Engineering
-Here’s a revised version with improved grammar, coherence, and sentence structure:
 
 This project implements a <a href="https://www.snowflake.com/guides/lambda-architecture/">Lambda Architecture</a> to analyze <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page">high-volume for-hire vehicle (HVFHV)</a> trips in New York City using Azure HDInsight Clusters. The architecture combines batch processing of large datasets with real-time analysis, providing hourly insights into key metrics of trip efficiency and pricing dynamics for major ride-sharing services. Metrics such as average price, wait time, trip duration, and costs related to tolls and congestion surcharges are analyzed and broken down by carrier, pickup location, dropoff location, and hour of the day. A Node.js web application serves as the front-end, enabling users to interact with the processed data and generate ad hoc reports.
 

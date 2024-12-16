@@ -3,7 +3,14 @@
 ---
 ## Scalable Genomic Annotation Service System
 ### Cloud Computing & Software Engineering
-During a <a href="https://mpcs-courses.cs.uchicago.edu/2022-23/spring/courses/mpcs-51083-2#:~:text=This%20course%20provides%20an%20introduction,on%2Dpremises%20and%20cloud%20infrastructure.">Cloud Computing course</a> in UChicago's Computer Science Department in Autumn 2024, I built a custom cloud application with AWS. I used a custom Flask API, EC2 instances for frontend, backend, and utility services, S3 object storage buckets for inputs and outputs, a DynamoDB database for storing user and job data, Lambda functions for maintaining serverless scalable workflows, and SNS messages + SQS queues for communicating between the distributed systems. The Github repo for this project is private, but I've made the exported code available <a href="https://drive.google.com/file/d/1OJ5KSlXKvHIr8I5Tw-sYudv_NDYaP3Jb/view">here</a>.
+
+During UChicago's <a href="https://mpcs-courses.cs.uchicago.edu/2024-25/autumn/courses/mpcs-51083-1">Cloud Computing course</a> in Autumn 2024, I developed the Genomics Annotation Service (GAS)—a scalable, fault-tolerant, and cost-effective system designed to efficiently manage asynchronous workflows in a distributed cloud environment. The architecture leverages Amazon S3 for storing input files, results, and logs, while DynamoDB ensures persistent storage of job metadata. To enhance scalability and reliability, I implemented asynchronous inter-process communication and serverless workflows for various system functions. 
+
+I utilized Amazon SNS, SQS, and webhooks to enable decoupled communication between system components, allowing the web application to publish job requests asynchronously. This design ensured that each service could scale independently in a cost-effective manner. For data archival and restoration, I created serverless workflows using AWS Step Functions and Lambda that integrated with Stripe’s payment API, facilitating efficient lifecycle management between S3 and Glacier based on user tiers, including users' account data and uploaded files. To handle varying workloads, I implemented auto-scaling and load balancing for both the web servers and the annotators, ensuring seamless performance under dynamic conditions.
+
+The Github repo for this project is private, but I've made the exported code available <a href="https://drive.google.com/file/d/1OJ5KSlXKvHIr8I5Tw-sYudv_NDYaP3Jb/view">here</a>.
+
+
 
 <img src="images/gas.png"/>
 

@@ -3,7 +3,6 @@
 ---
 ## Scalable Genomic Annotation Service System with AWS
 ### Cloud Computing & Software Engineering
-
 <img src="images/gas.png"/>
 
 During UChicago's <a href="https://mpcs-courses.cs.uchicago.edu/2024-25/autumn/courses/mpcs-51083-1">Cloud Computing course</a> in Autumn 2024, I developed the Genomics Annotation Service (GAS)—a scalable, fault-tolerant, and cost-effective system designed to efficiently manage asynchronous workflows in a distributed cloud environment. The architecture leverages Amazon S3 for storing input files, results, and logs, while DynamoDB ensures persistent storage of job metadata. To enhance scalability and reliability, I implemented asynchronous inter-process communication and serverless workflows for various system functions. 
@@ -17,7 +16,6 @@ The Github repo for this project is private, but I've made the exported code ava
 ---
 ## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
 ### Data Modeling & Software Engineering
-
 <img src="images/lambda.jpg"/>
 
 This project implements a <a href="https://www.snowflake.com/guides/lambda-architecture/">Lambda Architecture</a> to analyze <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page">high-volume for-hire vehicle (HVFHV)</a> trips in New York City using Azure HDInsight Clusters. The architecture combines batch processing of large datasets with real-time analysis, providing hourly insights into key metrics of trip efficiency and pricing dynamics for major ride-sharing services. Metrics such as average price, wait time, trip duration, and costs related to tolls and congestion surcharges are analyzed and broken down by carrier, pickup location, dropoff location, and hour of the day. A Node.js web application serves as the front-end, enabling users to interact with the processed data and generate ad hoc reports.
@@ -55,9 +53,11 @@ During an internship with the Rockefeller Foundation's Data Science team in Summ
 ---
 ## Impact Evaluation of Covid-19 Precautions on Traffic Accidents
 ### Panel Data Analysis & Regression Discontinuity
+<img src="images/trafficRD.jpg"/>
+
 During a Machine Learning course for UChicago's MSc in Computational Analysis and Public Policy in Spring 2022, my group used 2016 census tract data of neighborhood characteristics to predict a binary classification of a neighborhood’s gentrification status in 2019. The dataset contained 778 census tracts with 22 feature variables measuring socioeconomic status, educational attainment, criminal activity, pollution level, transportation equity and housing equity. The annalysis compared the F1-score performance of logistic regression, decision tree, random forest, and gradient-boosted decision tree models. The code and final report are available on <a href="https://github.com/dustinmarshall/predicting_gentrification_using-ML">GitHub</a>.
 
-<img src="images/ml.jpg"/>
+
 
 ---
 ## Interactive Dashboard Mapping Parks and Underutilized Public Land

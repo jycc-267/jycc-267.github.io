@@ -69,13 +69,14 @@ The results show that while overall accident numbers decreased, certain types of
 
 ---
 ## NLP Analysis of Agenda Setting Behavior of Partisan Media
-### Data Visualization & Geospatial Analysis Code Sample
-<img src="images/dash.jpg"/>
+### Natural Language Processing & Document Clustering
+<img src="images/topicmodel.png"/>
+<img src="images/bluetopics.jpg"/>
 
-This project investigated the agenda-setting behavior of partisan media in Taiwan during the 2020–2021 debate over ractopamine pork imports, focusing on four major outlets: TVBS, China Times (pan-blue); Liberty Times, and FTV (pan-green). Using natural language processing (NLP) techniques such as Word2Vec, co-occurrence analysis, and Latent Dirichlet Allocation (LDA), the study classified over 9,000 news articles into ten main topics. These topics included but not limited to cross-straits relations, government authority, international relations, and public health. The analysis revealed significant differences in how pan-blue and pan-green media framed the issue to influence public perception before the 2021 referendum.
+This project investigated the agenda-setting behavior of partisan media in Taiwan during the 2020–2021 debate over ractopamine pork imports, focusing on four major outlets: TVBS, China Times (pan-blue); Liberty Times, and FTV (pan-green). Using natural language processing (NLP) techniques such as Word2Vec, co-occurrence analysis, and <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Latent Dirichlet Allocation (LDA)</a>, the study classified over 9,000 news articles into ten main topics. These topics included but not limited to cross-straits relations, government authority, international relations, and public health. The analysis revealed significant differences in how pan-blue and pan-green media framed the issue to influence public perception before the 2021 referendum.
 
 The findings highlighted a strategic advantage for pan-green media, which maintained a cohesive narrative connecting ractopamine pork to Taiwan-U.S. relations and international trade benefits. In contrast, pan-blue media exhibited fragmented messaging, failing to focus on high-impact topics like food safety and health. This disparity was reflected in the distribution of discourse resources and ultimately influenced referendum outcomes.
 
-By combining exploratory data analysis with advanced NLP models, this project provided insights into how partisan media shape public discourse and policy outcomes through agenda-setting strategies. The code and written report are available on <a href="https://github.com/jycc-267/Ractopamine-Pork-Agenda-Setting">GitHub</a>.
+By combining exploratory data analysis with advanced NLP models, this project provided insights into how partisan media shape public discourse and policy outcomes through agenda-setting strategies. The code and written report (Chinese) are available on <a href="https://github.com/jycc-267/Ractopamine-Pork-Agenda-Setting">GitHub</a>.
 
 

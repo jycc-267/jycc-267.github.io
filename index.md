@@ -48,9 +48,11 @@ During a Data Visualization course for UChicago's MSc in Computational Analysis 
 ### Object-oriented Programming & GUI Programming
 <img src="images/2dgame.jpg"/>
 
-During an internship with the Rockefeller Foundation's Data Science team in Summer 2022, I worked on a project mapping the non-profit space with natural language processing and machine learning. I built a subject classification model to classify their corpus of grant proposals to aid grantee discovery.
+This project demonstrates a sophisticated 2D game engine built using object-oriented programming principles and multi-threading techniques. The Game class serves as the central controller, managing the game's core logic and state. It implements a robust game loop that handles sprite lifecycle, collision detection, and movement control with precision timing.
 
-The model is open-source on <a href="https://github.com/jycc-267/My2DGame">GitHub</a>.
+The engine utilizes a multi-threaded approach, separating the animation thread from the main event dispatch thread to ensure smooth gameplay. It employs a deferred mutation strategy for game object management, processing additions and removals after collision detection to maintain data integrity. The system also features dynamic level progression, spawning enemies based on the current level, and implements various game mechanics such as power-ups, different weapons, and boss encounters. Sound management and user input handling are integrated seamlessly, providing a comprehensive framework for an interactive gaming experience.
+
+The game is open-source on <a href="https://github.com/jycc-267/My2DGame">GitHub</a>.
 
 
 ---
@@ -62,8 +64,7 @@ This study examined the impact of COVID-19 Lockdown on traffic accidents in Taoy
 
 Other notable findings include a decrease in accidents occurring at intersections and an increase in accidents in the middle of road sections, possibly related to the rise in speeding incidents. The study found no significant changes in fatal accidents or in the time taken for police to arrive at accident scenes. Additionally, accidents involving drivers under 65 years old decreased significantly, while there was no significant change for those over 65.
 
-The results show that while overall accident numbers decreased, certain types of dangerous driving behaviors (such as speeding) may have increased. This provides a basis for developing more targeted traffic safety policies, especially during similar public health emergencies. The code and final report are available on <a href="https://github.com/jycc-267/Effects-of-COVID-19-Precautions-on-Traffic-Accidents-Taoyuan">GitHub</a>.
-
+The results show that while overall accident numbers decreased, certain types of dangerous driving behaviors (such as speeding) may have increased. This provides a basis for developing more targeted traffic safety policies, especially during similar public health emergencies. The code and final report (Chinese) are available on <a href="https://github.com/jycc-267/Effects-of-COVID-19-Precautions-on-Traffic-Accidents-Taoyuan">GitHub</a>.
 
 
 ---

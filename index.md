@@ -44,11 +44,14 @@ During a Data Visualization course for UChicago's MSc in Computational Analysis 
 <img src="images/d3.jpg"/>
 
 ---
-## Text Classification Model to Improve Grantee Discovery
-### Machine Learning & Data Analysis Code Sample + Blog Writing Sample
-During an internship with the Rockefeller Foundation's Data Science team in Summer 2022, I worked on a project mapping the non-profit space with natural language processing and machine learning. I built a subject classification model to classify their corpus of grant proposals to aid grantee discovery. The model is open-source on <a href="https://github.com/dustinmarshall/data_science_subject_classifier">GitHub</a> and a <a href="https://medium.com/mlearning-ai/using-nlp-to-improve-grantee-discovery-adc40f3833f">blog post</a> detailing the process was published on a popular machine learning blog on Medium.
+## Multi-threaded, arcade-style 2D Java Game Development
+### Object-oriented Programming & GUI Programming
+<img src="images/2dgame.jpg"/>
 
-<img src="images/nlp.jpg"/>
+During an internship with the Rockefeller Foundation's Data Science team in Summer 2022, I worked on a project mapping the non-profit space with natural language processing and machine learning. I built a subject classification model to classify their corpus of grant proposals to aid grantee discovery.
+
+The model is open-source on <a href="https://github.com/jycc-267/My2DGame">GitHub</a>.
+
 
 ---
 ## Impact Evaluation of Covid-19 Precautions on Traffic Accidents

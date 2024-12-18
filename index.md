@@ -12,7 +12,6 @@ I utilized Amazon SNS, SQS, and <a href="https://www.redhat.com/en/topics/automa
 The Github repo for this project is private, but I've made the exported code available <a href="https://drive.google.com/file/d/1OJ5KSlXKvHIr8I5Tw-sYudv_NDYaP3Jb/view">here</a>.
 
 
-
 ---
 ## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
 ### Big Data Processing & Full-Stack Development
@@ -51,7 +50,6 @@ During UChicago's Database course in Spring 2024, I designed and developed a bac
 To address data redundancy and improve quality, I engineered a deduplication process leveraging advanced string similarity algorithms for record linkage, reducing error entries by 40%. I further optimized the process by implementing blocking and indexing techniques, significantly accelerating data cleaning algorithms. Additionally, the database was enhanced to support record linkage between restaurants and external tweet data, combining geospatial and text-matching techniques to provide comprehensive insights into restaurant-related activity.
 
 These efforts culminated in a robust, scalable, and clean backend data access layer capable of supporting real-time query endpoints. The code is available on <a href="https://github.com/jycc-267/Chicago-Restaurant-Inspection">GitHub</a>.
-
 
 
 ---

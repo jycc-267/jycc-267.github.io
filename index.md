@@ -13,7 +13,7 @@ The comprehensive code for this project is private (in accordance with Universit
 
 
 ---
-## <a href="https://jycc-267.github.io/sample_page">End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data</a>
+## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
 ### Big Data Processing & Full-Stack Development
 <img src="images/lambda.jpg"/>
 

@@ -5,14 +5,14 @@ description: >
   I am an MSc candidate in Computational Analysis and Public Policy at the University of Chicago, with a strong foundation in data engineering, software engineering, and statistical learning.
   <br>
   <br>
-  Currently, I'm delving deeper into the core fields of modern computing architectures, including distributed systems, parallel programming, and cloud computing.
-  My goal is to design large-scale system applications and services that drive positive social impacts at the intersection of data science and software engineering.
-  <br>
-  <br>
   My professional experience includes roles as a data engineer for the Data Repository Team at <a href="https://www.nationalable.org/">National Able Network</a> and
   as a data analyst for the Research Design Team at <a href="https://www.linkedin.com/company/taiwan-digital-diplomacy-association/">Taiwan Digital Diplomacy Association</a>.
   My technical expertise lies in crafting data products that harness the power of machine learning and natural language processing by automating data processes and optimizing analytics delivery.
-
+  <br>
+  <br>
+  Currently, I'm delving deeper into the core fields of modern computing architectures, including distributed systems, parallel programming, and cloud computing.
+  My goal is to design large-scale system applications and services that drive positive social impacts at the intersection of data science and software engineering.
+  
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:

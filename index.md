@@ -39,7 +39,7 @@ During a <a href="https://willett.psd.uchicago.edu/teaching/mathematical-foundat
 ---
 ## Backend Data Access Layer Management for Restaurant Inspection Query Endpoints 
 ### Database Management & Data Deduplication
-<img src="images/resInsp.png"/>
+<img src="images/restInsp.png"/>
 
 During UChicago's Database course in Spring 2024, I designed and developed a backend system to manage <a href="https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5/about_data">Chicago restaurant inspection data</a> using Flask-based RESTful APIs. I built endpoints to efficiently handle write/update (POST) and read (GET) operations, ensuring seamless data retrieval and updates. The system utilized an SQLite3 database, where I implemented dynamic batching and transaction control mechanisms, boosting query consistency and data integrity by 30%. These enhancements ensured atomicity in bulk operations, minimizing partial updates and data corruption.
 

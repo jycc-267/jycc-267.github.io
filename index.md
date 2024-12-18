@@ -32,13 +32,15 @@ Data is sourced from <a href="https://data.cityofnewyork.us/Transportation/2022-
 ---
 ## Data Modeling and CRM System Design for Nonprofit Donation Management
 ### Data Modeling & User Interface Research
+<img src="images/lootdrop.jpg"/>
+
 As a data engineer at UChicago TechTeam, I developed a comprehensive CRM database solution on Azure for Chicago Loot Drop, a non-profit organization supporting the gaming community. The project focused on streamlining data management for their game donation program by redesigning the CRM database schema and conducting user research to create an intuitive front-end data input interface.
 
 The core of the project involved data modeling of the CRM system to efficiently collect and manage client data. This included creating a centralized database to store information about donor organizations, donated items, type of games, controllers/consoles, and recipients. The solution not only improved data management efficiency but also enhanced the organization's ability to track donations and manage relationships with donors and recipients effectively.
 
 The <a href="https://github.com/dustinmarshall/detecting_partisan_voting_using_SVD/blob/main/detecting_partisanship_using_SVD.ipynb">code</a> and accompanying <a href="https://github.com/dustinmarshall/detecting_partisan_voting_using_SVD/blob/main/detecting_partisanship_using_SVD.pdf">academic paper</a> are available on GitHub.
 
-<img src="images/lootdrop.jpg"/>
+
 
 ---
 ## Backend Data Access Layer Management for Restaurant Inspection Query Endpoints 

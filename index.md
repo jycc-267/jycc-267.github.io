@@ -15,7 +15,7 @@ The Github repo for this project is private, but I've made the exported code ava
 
 ---
 ## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
-### Data Modeling & Software Engineering
+### Big Data Processing & Full-Stack Development
 <img src="images/lambda.jpg"/>
 
 This project implements a <a href="https://www.snowflake.com/guides/lambda-architecture/">Lambda Architecture</a> to analyze <a href="https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page">high-volume for-hire vehicle (HVFHV)</a> trips in New York City using Azure HDInsight Clusters. The architecture combines batch processing of large datasets with real-time analysis, providing hourly insights into key metrics of trip efficiency and pricing dynamics for major ride-sharing services. Metrics such as average price, wait time, trip duration, and costs related to tolls and congestion surcharges are analyzed and broken down by carrier, pickup location, dropoff location, and hour of the day. A Node.js web application serves as the front-end, enabling users to interact with the processed data and generate ad hoc reports.
@@ -30,9 +30,13 @@ Data is sourced from <a href="https://data.cityofnewyork.us/Transportation/2022-
 
 
 ---
-## Using Singular Value Decomposition to Detect Partisan Voting
-### Machine Learning & Data Analysis Code Sample + Academic Writing Sample
-During a <a href="https://willett.psd.uchicago.edu/teaching/mathematical-foundations-of-machine-learning-fall-2021/">Mathematical Foundations of Machine Learning course</a> in UChicago's Computer Science Department in Fall 2022, I co-authored an ML analysis of federal and state voting records. We used singular value decomposition and non-negative matrix factorization to detect partisanship in voting behavior, finding two clear voting blocs at both the national and state level that align with party affiliation. The <a href="https://github.com/dustinmarshall/detecting_partisan_voting_using_SVD/blob/main/detecting_partisanship_using_SVD.ipynb">code</a> and accompanying <a href="https://github.com/dustinmarshall/detecting_partisan_voting_using_SVD/blob/main/detecting_partisanship_using_SVD.pdf">academic paper</a> are available on GitHub.
+## Data Modeling and CRM System Design for Nonprofit Donation Management
+### Data Modeling & User Interface Research
+As a data engineer at UChicago TechTeam, I developed a comprehensive CRM database solution on Azure for Chicago Loot Drop, a non-profit organization supporting the gaming community. The project focused on streamlining data management for their game donation program by redesigning the CRM database schema and conducting user research to create an intuitive front-end data input interface.
+
+The core of the project involved data modeling of the CRM system to efficiently collect and manage client data. This included creating a centralized database to store information about donor organizations, donated items, type of games, controllers/consoles, and recipients. The solution not only improved data management efficiency but also enhanced the organization's ability to track donations and manage relationships with donors and recipients effectively.
+
+The <a href="https://github.com/dustinmarshall/detecting_partisan_voting_using_SVD/blob/main/detecting_partisanship_using_SVD.ipynb">code</a> and accompanying <a href="https://github.com/dustinmarshall/detecting_partisan_voting_using_SVD/blob/main/detecting_partisanship_using_SVD.pdf">academic paper</a> are available on GitHub.
 
 <img src="images/lootdrop.jpg"/>
 

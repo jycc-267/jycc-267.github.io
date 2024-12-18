@@ -9,7 +9,7 @@ During UChicago's <a href="https://mpcs-courses.cs.uchicago.edu/2024-25/autumn/c
 
 I utilized Amazon SNS, SQS, and <a href="https://www.redhat.com/en/topics/automation/what-is-a-webhook">webhooks</a> to enable decoupled communication between system components, allowing the web application to publish job requests asynchronously. This design ensured that each service could scale independently in a cost-effective manner. For data archival and restoration, I created serverless workflows using AWS Step Functions and Lambda that integrated with <a href="https://docs.stripe.com/api">Stripe’s payment API</a>, facilitating efficient lifecycle management between S3 and Glacier based on user tiers, including users' account data and uploaded files. To handle varying workloads, I implemented auto-scaling and load balancing for both the web servers and the annotators, ensuring seamless performance under dynamic conditions. For more detailed introduction, please watch my <a href="https://youtu.be/gnoWB4kkvcg">demo video</a>.
 
-The Github repo for this project is private (in accordance with University policy), but I've made the exported code available <a href="https://github.com/jycc-267/Scalable-Genomic-Annotation-Service">here</a>. If you are interested in my work, please <a href="jycc267@gmail.com">contact me</a>!
+The comprehensive code for this project is private (in accordance with University policy), but I've made the exported code available <a href="https://github.com/jycc-267/Scalable-Genomic-Annotation-Service">here</a>. If you are interested in my work, please <a href="mailto:jycc267@gmail.com">contact me</a>!
 
 
 ---

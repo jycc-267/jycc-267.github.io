@@ -34,7 +34,7 @@ Data is sourced from <a href="https://data.cityofnewyork.us/Transportation/2022-
 ### Machine Learning & Data Analysis Code Sample + Academic Writing Sample
 During a <a href="https://willett.psd.uchicago.edu/teaching/mathematical-foundations-of-machine-learning-fall-2021/">Mathematical Foundations of Machine Learning course</a> in UChicago's Computer Science Department in Fall 2022, I co-authored an ML analysis of federal and state voting records. We used singular value decomposition and non-negative matrix factorization to detect partisanship in voting behavior, finding two clear voting blocs at both the national and state level that align with party affiliation. The <a href="https://github.com/dustinmarshall/detecting_partisan_voting_using_SVD/blob/main/detecting_partisanship_using_SVD.ipynb">code</a> and accompanying <a href="https://github.com/dustinmarshall/detecting_partisan_voting_using_SVD/blob/main/detecting_partisanship_using_SVD.pdf">academic paper</a> are available on GitHub.
 
-<img src="images/svd.jpg"/>
+<img src="images/lootdrop.jpg"/>
 
 ---
 ## Backend Data Access Layer Management for Restaurant Inspection Query Endpoints 

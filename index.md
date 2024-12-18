@@ -76,7 +76,7 @@ The results show that while overall accident numbers decreased, certain types of
 ---
 ## NLP Analysis of Agenda Setting Behavior of Partisan Media
 ### Natural Language Processing & Document Clustering
-<img src="images/topicmodel.png"/>
+<img src="images/topicmodel.png?raw=true"/>
 <img src="images/bluetopics.jpg"/>
 
 This project investigated the agenda-setting behavior of partisan media in Taiwan during the 2020–2021 debate over ractopamine pork imports, focusing on four major outlets: TVBS, China Times (pan-blue); Liberty Times, and FTV (pan-green). Using natural language processing (NLP) techniques such as Word2Vec, co-occurrence analysis, and <a href="https://towardsdatascience.com/latent-dirichlet-allocation-lda-9d1cd064ffa2">Latent Dirichlet Allocation (LDA)</a>, the study classified over 9,000 news articles into ten main topics. These topics included but not limited to cross-straits relations, government authority, international relations, and public health. The analysis revealed significant differences in how pan-blue and pan-green media framed the issue to influence public perception before the 2021 referendum.

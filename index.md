@@ -83,6 +83,6 @@ This project investigated the agenda-setting behavior of partisan media in Taiwa
 
 The findings highlighted a strategic advantage for pan-green media, which maintained a cohesive narrative connecting ractopamine pork to Taiwan-U.S. relations and international trade benefits. In contrast, pan-blue media exhibited fragmented messaging, failing to focus on high-impact topics like food safety and health. This disparity was reflected in the distribution of discourse resources and ultimately influenced referendum outcomes.
 
-By combining exploratory data analysis with advanced NLP models, this project provided insights into how partisan media shape public discourse and policy outcomes through agenda-setting strategies. The code and written report (Chinese) are available on <a href="https://github.com/jycc-267/Ractopamine-Pork-Agenda-Setting">GitHub</a>.
+By combining exploratory data analysis with advanced NLP models, this project provided insights into how partisan media shape public discourse and policy outcomes through agenda-setting strategies. The code and academic paper (Chinese) are available on <a href="https://github.com/jycc-267/Ractopamine-Pork-Agenda-Setting">GitHub</a>.
 
 

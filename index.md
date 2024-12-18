@@ -37,11 +37,17 @@ During a <a href="https://willett.psd.uchicago.edu/teaching/mathematical-foundat
 <img src="images/svd.jpg"/>
 
 ---
-## D3 Visualization for Vaccine Hesitency Chatbot Intervention 
-### Data Visualization & Javascript Code Sample
-During a Data Visualization course for UChicago's MSc in Computational Analysis and Public Policy in Fall 2022, I created a data vizialization in D3.js using the preliminary results of an ongoing <a href="https://osf.io/mgyxu/">chatbot intervention</a> to improve vaccine acceptance in Kenya and Nigeria with Prof. Molly Offer-Westort and DIL Director Leah Rosenzweig. The visualization is coded using the JavaScript library D3.js, which is used to produce dynamic, interactive data visualizations in web browsers. It includes a chloropleth map, grouped bar charts, and heatmaps. The code is available on <a href="https://github.com/dustinmarshall/data_visualization_for_policy_analysis/tree/main/final_project">GitHub</a>.
-
+## Backend Data Access Layer Management for Restaurant Inspection Query Endpoints 
+### Database Management & Data Deduplication
 <img src="images/d3.jpg"/>
+
+During UChicago's Database course in Spring 2024, I designed and developed a backend system to manage <a href="https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5/about_data">Chicago restaurant inspection data</a> using Flask-based RESTful APIs. I built endpoints to efficiently handle write/update (POST) and read (GET) operations, ensuring seamless data retrieval and updates. The system utilized an SQLite3 database, where I implemented dynamic batching and transaction control mechanisms, boosting query consistency and data integrity by 30%. These enhancements ensured atomicity in bulk operations, minimizing partial updates and data corruption.
+
+To address data redundancy and improve quality, I engineered a deduplication process leveraging advanced string similarity algorithms for record linkage, reducing error entries by 40%. I further optimized the process by implementing blocking and indexing techniques, significantly accelerating data cleaning algorithms. Additionally, the database was enhanced to support record linkage between restaurants and external tweet data, combining geospatial and text-matching techniques to provide comprehensive insights into restaurant-related activity.
+
+These efforts culminated in a robust, scalable, and clean backend data access layer capable of supporting real-time query endpoints. The code is available on <a href="https://github.com/jycc-267/Chicago-Restaurant-Inspection">GitHub</a>.
+
+
 
 ---
 ## Multi-threaded, arcade-style 2D Java Game Development

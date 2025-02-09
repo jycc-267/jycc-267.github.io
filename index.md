@@ -5,20 +5,26 @@
 ### Cloud Computing & Software Engineering
 <img src="images/gas.png"/>
 
-During UChicago's <a href="https://mpcs-courses.cs.uchicago.edu/2024-25/autumn/courses/mpcs-51083-1">Cloud Computing course</a> in Autumn 2024, I developed the Genomics Annotation Service (GAS)—a scalable, fault-tolerant, and cost-effective system designed to efficiently manage asynchronous workflows in a distributed cloud environment. The system separates the web server frontend from the annotation backend, enabling independent scaling and fault isolation. 
+During UChicago's <a href="https://mpcs-courses.cs.uchicago.edu/2024-25/autumn/courses/mpcs-51083-1">Cloud Computing course</a> in Autumn 2024, I developed the Genomics Annotation Service (GAS)—a scalable, fault-tolerant, and cost-effective system designed to efficiently manage asynchronous workflows in a distributed cloud environment. The system separates the web server frontend from the annotation backend, enabling independent scaling and fault isolation. enable decoupled communication between system components, allowing the web application to publish job requests asynchronously.
 
+For the frontend, an Application Load Balancer distributes HTTPS traffic across multiple EC2 instances in an **Auto Scaling group**, ensuring high availability and efficient resource utilization. The Auto Scaling group, configured with a minimum of two instances and a maximum of ten, provides elasticity to handle varying workloads while maintaining a baseline capacity for consistent performance.
 
-The architecture leverages **Amazon S3** for storing input files, results, and logs, while **DynamoDB** ensures persistent storage of job metadata. To enhance scalability and reliability, I implemented asynchronous inter-process communication and serverless workflows for various system functions. 
-
-I utilized Amazon **SNS+SQS**, and <a href="https://www.redhat.com/en/topics/automation/what-is-a-webhook">webhooks</a> to enable decoupled communication between system components, allowing the web application to publish job requests asynchronously. This design ensured that each service could scale independently in a cost-effective manner. For data archival and restoration, I created serverless workflows using **AWS Step Functions and Lambda** that integrated with <a href="https://docs.stripe.com/api">Stripe’s payment API</a>, facilitating efficient lifecycle management between **S3 and Glacier** based on user tiers, including users' account data and uploaded files. To handle varying workloads, I implemented **auto-scaling and load balancing** for both the web servers and the annotators, ensuring seamless performance under dynamic conditions. For more detailed introduction, please watch my <a href="https://youtu.be/gnoWB4kkvcg">demo video</a>.
-
-For the frontend, an Application Load Balancer distributes HTTPS traffic across multiple EC2 instances in an Auto Scaling group, ensuring high availability and efficient resource utilization. The Auto Scaling group, configured with a minimum of two instances and a maximum of ten, provides elasticity to handle varying workloads while maintaining a baseline capacity for consistent performance.
-
-On the backend, the annotation service is similarly designed for scalability and resilience. It utilizes either a polling mechanism or a webhook pattern, with the latter requiring its own load balancer and auto scaling group. This design allows for efficient processing of annotation jobs and graceful handling of increased demand.
+On the backend, the annotation service is similarly designed for scalability and resilience. It utilizes polling mechanism and <a href="https://www.redhat.com/en/topics/automation/what-is-a-webhook">webhook pattern</a> along with Amazon **SNS+SQS**, with the latter requiring its own load balancer and auto scaling group. This design allows for efficient processing of annotation jobs and graceful handling of increased demand.
 
 The system incorporates several reliability features, including health checks for instances, automated instance replacement, and cross-availability zone deployment. Error budgets are implicitly managed through the auto scaling policies, which maintain a minimum number of healthy instances. Observability is addressed through AWS's built-in monitoring tools, allowing for tracking of key metrics such as instance health, request counts, and latency.
 
-The comprehensive code for this project is private (in accordance with University policy), but I've made the exported code available <a href="https://github.com/jycc-267/Scalable-Genomic-Annotation-Service">here</a>. If you are interested in my work, please <a href="mailto:jycc267@gmail.com">contact me</a>!
+
+The architecture leverages **Amazon S3** for storing input annotation files, results, and logs, while **DynamoDB** ensures persistent storage of job metadata and user interaction. To enhance scalability and reliability, I implemented asynchronous inter-process communication and serverless workflows for various system functions. 
+
+For data archival and restoration, I created serverless workflows using **AWS Step Functions and Lambda** that integrated with <a href="https://docs.stripe.com/api">Stripe’s payment API</a>, facilitating efficient lifecycle management between **S3 and Glacier** based on user tiers, including users' account data and uploaded files.
+
+For more detailed introduction, please watch my <a href="https://youtu.be/gnoWB4kkvcg">demo video</a>. The comprehensive code for this project is private (in accordance with University policy), but I've made the exported code available <a href="https://github.com/jycc-267/Scalable-Genomic-Annotation-Service">here</a>. If you are interested in my work, please <a href="mailto:jycc267@gmail.com">contact me</a>!
+
+
+I utilized Amazon **SNS+SQS**, and <a href="https://www.redhat.com/en/topics/automation/what-is-a-webhook">webhooks</a> to enable decoupled communication between system components, allowing the web application to publish job requests asynchronously. 
+
+
+
 
 
 ---

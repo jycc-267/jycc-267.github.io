@@ -18,6 +18,7 @@ The architecture leverages **Amazon S3** for storing input annotation files, res
 For more detailed introduction, please watch my <a href="https://youtu.be/gnoWB4kkvcg">demo video</a>. The comprehensive code for this project is private (in accordance with University policy), but I've made the exported code available <a href="https://github.com/jycc-267/Scalable-Genomic-Annotation-Service">here</a>. If you are interested in my work, please <a href="mailto:jycc267@gmail.com">contact me</a>!
 
 
+---
 ## Convolutional Image Processing System
 ### Parallel Computing and Golang
 <img src="images/speedup-parfiles.png"/>

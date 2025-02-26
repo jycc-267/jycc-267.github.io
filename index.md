@@ -18,6 +18,12 @@ The architecture leverages **Amazon S3** for storing input annotation files, res
 For more detailed introduction, please watch my <a href="https://youtu.be/gnoWB4kkvcg">demo video</a>. The comprehensive code for this project is private (in accordance with University policy), but I've made the exported code available <a href="https://github.com/jycc-267/Scalable-Genomic-Annotation-Service">here</a>. If you are interested in my work, please <a href="mailto:jycc267@gmail.com">contact me</a>!
 
 
+## Convolutional Image Processing System
+### Parallel Computing and Golang
+<img src="images/speedup-parfiles.png"/>
+The project implements three versions of image editor that apply convolution effects on given images. The sequential version processes images one at a time without parallelism. Each image is fully loaded, effects are applied in-order using sequential convolution operations, and results are saved before moving to the next image. This version serves as the baseline for performance comparisons. The parfiles version spawns goroutines that compete to pull image tasks from a shared task queue protected by a TAS lock. After a goroutine acquires the lock, the image task along with a sequence of effects will then be executed independently. The parslices version processes an individual image by splitting it into slices. This version has each goroutine apply the same effect on their own slices, wait for all slices to be completed between effects, and move on to the next effect instruction together. The parfiles version attempts to maximize hardware utilization when processing many images, while the parslices version tries to accelerate single large image processing.
+
+The code is fully open-source on <a href="https://github.com/jycc-267/para-convolution">GitHub</a>.
 
 ---
 ## End-to-End Lambda Architecture for Ad Hoc Reporting on Large-Scale Uber Trip Data
